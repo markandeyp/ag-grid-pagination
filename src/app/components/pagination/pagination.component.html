@@ -1,0 +1,5 @@
+<div class="pagination-wrapper">
+  <button (click)="prev()" [disabled]="currentPage == 1">Previous</button>
+  <span>{{ currentPage }}</span>
+  <button (click)="next()">Next</button>
+</div>

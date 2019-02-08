@@ -1,0 +1,8 @@
+.pagination-wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  min-width: 200px;
+}
